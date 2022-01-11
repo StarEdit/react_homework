@@ -1,0 +1,95 @@
+html {
+  font-size: 10px;
+}
+
+.App {
+  position: relative;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+.container {
+  position: absolute;
+  width: 54%;
+  background-color: white;
+  top: 20%;
+  right: 21%;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.container p {
+  font-size: 2rem;
+}
+
+.container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 46%;
+  margin: 1rem 0;
+  border-bottom: 1px solid lightgray;
+  padding: 1rem 0;
+}
+
+.container .form .form-group label {
+  font-size: 1.6rem;
+  text-align: left;
+  margin-right: 2%;
+}
+
+.container .form .form-group input {
+  font-size: 1.6rem;
+  border: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  outline: none;
+}
+
+.container .form .rule-wrap {
+  width: 96%;
+  text-align: left;
+  font-size: 1.6rem;
+  margin: 2rem 0;
+}
+
+.container .form .rule-wrap label {
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+.container .form .btn-wrap {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container .form .btn-wrap button {
+  padding: 1.4rem 1rem;
+  background-color: #ce5628;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+}
+
+.container .form .btn-wrap button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
